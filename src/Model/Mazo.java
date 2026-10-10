@@ -18,10 +18,10 @@ public class Mazo {
     public void agregarCartasAlMazo() {
 
         //CARTAS DE CATEDRÁTICO
-        cartas.add(new ProfesorCartas(1, "Ing. Castellanos", 3, "Sesiones exhaustivas en donde aclara dudas, pero penaliza la falta de avance", "Matemática", 2, 90));
+        cartas.add(new ProfesorCartas(1, "Ing. Castellanos", 2, "Sesiones exhaustivas en donde aclara dudas, pero penaliza la falta de avance", "Matemática", 2, 90));
         cartas.add(new ProfesorCartas(2, "Dra. Hacohen", 1, "Revisa reportes de laboratorio señalando cualquier falta de citación", "Biología", 1, 30));
-        cartas.add(new ProfesorCartas(3, "Ing. Barrera", 2, "Asistencia práctica en armado de cirucitos en protoboard con retroalimentación constructiva", "Ciencias de la Computación", 0, 60));
-        cartas.add(new ProfesorCartas(4, "Dra. Rojas", 3, "Revisa reportes de laboratorio con retroalimentación constructiva, pero penaliza errores en el formato de presentación solicitado ", "Química", 1, 60));
+        cartas.add(new ProfesorCartas(3, "Ing. Barrera", 2, "Asistencia práctica en armado de cirucitos en protoboard con retroalimentación constructiva", "Ciencias de la Computación", 0, 90));
+        cartas.add(new ProfesorCartas(4, "Dra. Rojas", 3, "Revisa reportes de laboratorio con retroalimentación constructiva, pero penaliza errores en el formato de presentación solicitado ", "Química", 1, 30));
         cartas.add(new ProfesorCartas(5, "Ing. Salazar", 1, "Consulta rápida sin llamadas de atención ni penalización", "Ciencias de la Computación", 0, 30));
         cartas.add(new ProfesorCartas(6, "Dr. Hernández", 2, "Explicación clara y concisa de los conceptos teóricos pero estricto al evaluar las asignaciones dejadas con observaciones por apoyarse de la IA", "Historia", 1, 60));
             
